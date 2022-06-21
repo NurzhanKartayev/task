@@ -25,16 +25,18 @@ Google no longer supports the use of third-party apps or devices which ask you t
 Also don't forget to get from mail.ru temporary password
 
 '''
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = True
-EMAIL_HOST = 'smtp.mail.ru'
-EMAIL_HOST_USER = 'nurzhan.kartaev@mail.ru'
-EMAIL_HOST_PASSWORD = 'cYkRm3zU0BU4Y7iaH1zc'
+EMAIL_USE_TLS = False;
+EMAIL_USE_SSL = True;
+EMAIL_HOST = 'smtp.mail.ru';
+EMAIL_HOST_USER = 'nurzhan.kartaev@mail.ru';
+EMAIL_HOST_PASSWORD = 'cYkRm3zU0BU4Y7iaH1zc';
 EMAIL_PORT = 465
 '''
 
+---
+
 ### Start the Project
 '''
-docker-compose build
-docker-compose up
+docker-compose build;
+docker-compose up;
 '''
