@@ -1,5 +1,5 @@
 # __Task__
-This Django application is a simple app for the stuff.
+This Django application is a simple app for the staff.
 1. The project in Docker containers\containers
 2. docker-compose to run application
 3. User roles - employee, admin
@@ -10,8 +10,6 @@ This Django application is a simple app for the stuff.
     4.3 Employees can view their tasks only related to them(except admin)<br/>
     4.4 Deleting and editing a task (for the task creator or admin)<br/>
 5. If a deadline is running out of time the app will send the notifications in an hour to the email of user
-
-For that you need to configure main mail, I leave the instructions below.
 
 In this project I use Docker for building the project, Postgres as Database, Redis as a message broker, and Celery as a task queue.
 
