@@ -4,11 +4,11 @@ This Django application is a simple app for the stuff.
 2. docker-compose to run application
 3. User roles - employee, admin
 4. Implemented APIs:
-  4.1 Authorization with JWT
-  4.2 Creating a task with a mandatory title, description and optional priority and deadline (for employee)
+    4.1 Authorization with JWT
+    4.2 Creating a task with a mandatory title, description and optional priority and deadline (for employee)
       priorities - low, medium, high
-  4.3 Employees can view their tasks only related to them(except admin)
-  4.4 Deleting and editing a task (for the task creator or admin)
+    4.3 Employees can view their tasks only related to them(except admin)
+    4.4 Deleting and editing a task (for the task creator or admin)
 5. If a deadline is running out of time the app will send the notifications in an hour to the email of user
 
 For that you need to configure main mail, I leave the instructions below.
