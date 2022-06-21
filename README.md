@@ -1,9 +1,9 @@
 # __Task__
 This Django application is a simple app for the stuff.
-1.The project in Docker containers\containers
-2.docker-compose to run application
-3.User roles - employee, admin
-4.Implemented APIs:
+1. The project in Docker containers\containers
+2. docker-compose to run application
+3. User roles - employee, admin
+4. Implemented APIs:
   4.1 Authorization with JWT
   4.2 Creating a task with a mandatory title, description and optional priority and deadline (for employee)
       priorities - low, medium, high
