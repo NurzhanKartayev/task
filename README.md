@@ -15,7 +15,7 @@ For that you need to configure main mail, I leave the instructions below.
 
 In this project I use Docker for building the project, Postgres as Database, Redis as a message broker, and Celery as a task queue.
 
-#Prepare email (in this case mail.ru)
+## Prepare email (in this case mail.ru)
 https://help.mail.ru/mail/mailer/popsmtp here you can read configurations
 Change the login and password of your mail
 If you use gmail.com I want to warn you that from May 30, 2022
@@ -29,6 +29,6 @@ EMAIL_HOST_USER = 'nurzhan.kartaev@mail.ru'
 EMAIL_HOST_PASSWORD = 'cYkRm3zU0BU4Y7iaH1zc'
 EMAIL_PORT = 465
 
-#Start the Project
+### Start the Project
 docker-compose build
 docker-compose up
