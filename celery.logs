@@ -1,0 +1,133 @@
+[2022-06-21 07:04:58,473: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:04:58,477: INFO/MainProcess] Task todo.deadline_send_mail[b333170d-da79-4e09-95aa-c6f9bede1a91] received
+[2022-06-21 07:04:58,480: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:04:58.479674) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:04:58,937: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 07:04:59,560: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[b333170d-da79-4e09-95aa-c6f9bede1a91] succeeded in 1.08067513900005s: None
+[2022-06-21 07:05:11,413: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 07:05:11,416: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 07:05:12,423: INFO/MainProcess] mingle: all alone
+[2022-06-21 07:05:12,434: INFO/MainProcess] celery@57b93ebd553e ready.
+[2022-06-21 07:05:12,745: INFO/Beat] beat: Starting...
+[2022-06-21 07:06:58,582: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:06:58,591: INFO/MainProcess] Task todo.deadline_send_mail[fee04662-80d1-4050-a856-f8d701dfee87] received
+[2022-06-21 07:06:58,596: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:06:58.593539) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:06:59,791: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[fee04662-80d1-4050-a856-f8d701dfee87] succeeded in 1.1984918329999346s: {'error': ' Can\'t sand a message ((451, b\'Ratelimit exceeded for mailbox <nurzhan.kartaev@mail.ru>. Try again later.\'))'}
+[2022-06-21 07:08:02,276: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 07:08:30,190: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 07:08:30,192: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 07:08:31,200: INFO/MainProcess] mingle: all alone
+[2022-06-21 07:08:31,210: INFO/MainProcess] celery@57b93ebd553e ready.
+[2022-06-21 07:08:31,530: INFO/Beat] beat: Starting...
+[2022-06-21 07:08:31,557: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:08:31,563: INFO/MainProcess] Task todo.deadline_send_mail[8d95e671-745f-45e7-97b1-7bed8d86cfe5] received
+[2022-06-21 07:08:31,565: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:08:31.564703) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:08:32,754: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[8d95e671-745f-45e7-97b1-7bed8d86cfe5] succeeded in 1.1895381600006658s: None
+[2022-06-21 07:09:31,599: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:09:31,601: INFO/MainProcess] Task todo.deadline_send_mail[7cc04d26-ea41-4041-86dd-75d04c7346fe] received
+[2022-06-21 07:09:31,602: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:09:31.602316) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:09:32,638: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[7cc04d26-ea41-4041-86dd-75d04c7346fe] succeeded in 1.036412952000319s: {'error': ' Can\'t sand a message ((451, b\'Ratelimit exceeded for mailbox <nurzhan.kartaev@mail.ru>. Try again later.\'))'}
+[2022-06-21 07:10:31,641: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:10:31,644: INFO/MainProcess] Task todo.deadline_send_mail[749ea737-460c-41b0-98f0-e9cabebcdcbb] received
+[2022-06-21 07:10:31,645: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:10:31.645546) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:10:32,701: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[749ea737-460c-41b0-98f0-e9cabebcdcbb] succeeded in 1.0560870210001667s: {'error': ' Can\'t sand a message ((451, b\'Ratelimit exceeded for mailbox <nurzhan.kartaev@mail.ru>. Try again later.\'))'}
+[2022-06-21 07:11:31,694: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:11:31,699: INFO/MainProcess] Task todo.deadline_send_mail[0c6efb11-7dbf-43c4-8e7b-840855ae57ba] received
+[2022-06-21 07:11:31,701: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:11:31.701400) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:11:32,822: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[0c6efb11-7dbf-43c4-8e7b-840855ae57ba] succeeded in 1.12174153199976s: None
+[2022-06-21 07:11:36,316: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 07:11:47,216: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 07:11:47,219: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 07:11:48,227: INFO/MainProcess] mingle: all alone
+[2022-06-21 07:11:48,238: INFO/MainProcess] celery@57b93ebd553e ready.
+[2022-06-21 07:11:48,551: INFO/Beat] beat: Starting...
+[2022-06-21 07:11:48,586: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:11:48,592: INFO/MainProcess] Task todo.deadline_send_mail[dd0ee495-0470-4f09-a470-adc2d672d62e] received
+[2022-06-21 07:11:48,595: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:11:48.594062) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:11:49,745: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[dd0ee495-0470-4f09-a470-adc2d672d62e] succeeded in 1.1513814140007526s: None
+[2022-06-21 07:11:58,579: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:11:58,582: INFO/MainProcess] Task todo.deadline_send_mail[f7a9a503-29e2-44cc-a79f-6cbb5c3d5f28] received
+[2022-06-21 07:11:58,584: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:11:58.583969) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:11:59,815: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[f7a9a503-29e2-44cc-a79f-6cbb5c3d5f28] succeeded in 1.2319379069995193s: None
+[2022-06-21 07:12:08,579: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:12:08,584: INFO/MainProcess] Task todo.deadline_send_mail[4e9adfcc-d0ba-42c6-a7a5-939c4ee63ef3] received
+[2022-06-21 07:12:08,586: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:12:08.586256) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:12:09,747: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[4e9adfcc-d0ba-42c6-a7a5-939c4ee63ef3] succeeded in 1.1611498510001184s: {'error': ' Can\'t sand a message ((451, b\'Ratelimit exceeded for mailbox <nurzhan.kartaev@mail.ru>. Try again later.\'))'}
+[2022-06-21 07:12:18,579: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:12:18,584: INFO/MainProcess] Task todo.deadline_send_mail[84cfa947-9b8e-4fbe-aed0-87847ec84fbd] received
+[2022-06-21 07:12:18,587: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:12:18.586679) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:12:19,681: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[84cfa947-9b8e-4fbe-aed0-87847ec84fbd] succeeded in 1.0952355600002193s: None
+[2022-06-21 07:12:28,580: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:12:28,583: INFO/MainProcess] Task todo.deadline_send_mail[b5d27615-6089-4def-8891-2408900d7e79] received
+[2022-06-21 07:12:28,585: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:12:28.584982) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:12:29,637: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[b5d27615-6089-4def-8891-2408900d7e79] succeeded in 1.052717845999723s: None
+[2022-06-21 07:12:38,580: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:12:38,583: INFO/MainProcess] Task todo.deadline_send_mail[ef19580f-3c84-491c-a0f9-942abed48fde] received
+[2022-06-21 07:12:38,585: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:12:38.585011) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:12:38,934: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 07:12:39,717: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[ef19580f-3c84-491c-a0f9-942abed48fde] succeeded in 1.1329598339998483s: {'error': ' Can\'t sand a message ((451, b\'Ratelimit exceeded for mailbox <nurzhan.kartaev@mail.ru>. Try again later.\'))'}
+[2022-06-21 07:26:28,105: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 07:26:28,109: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 07:26:29,116: INFO/MainProcess] mingle: all alone
+[2022-06-21 07:26:29,128: INFO/MainProcess] celery@2935631eecc1 ready.
+[2022-06-21 07:26:29,267: INFO/Beat] beat: Starting...
+[2022-06-21 07:26:29,400: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:26:29,412: INFO/MainProcess] Task todo.deadline_send_mail[b374a94d-c9bc-4488-883b-6d847a00b608] received
+[2022-06-21 07:26:29,415: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:26:29.414125) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:26:30,675: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[b374a94d-c9bc-4488-883b-6d847a00b608] succeeded in 1.261856854999678s: None
+[2022-06-21 07:31:09,962: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 07:31:17,961: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 07:31:17,965: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 07:31:18,973: INFO/MainProcess] mingle: all alone
+[2022-06-21 07:31:18,982: INFO/MainProcess] celery@2935631eecc1 ready.
+[2022-06-21 07:31:19,007: INFO/Beat] beat: Starting...
+[2022-06-21 07:31:29,433: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:31:29,454: INFO/MainProcess] Task todo.deadline_send_mail[22f2eb97-dbfa-4100-a40a-2c4d31f4c69b] received
+[2022-06-21 07:31:29,458: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:31:29.456036) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:31:30,652: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[22f2eb97-dbfa-4100-a40a-2c4d31f4c69b] succeeded in 1.1964828469999702s: None
+[2022-06-21 07:36:29,411: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 07:36:29,414: INFO/MainProcess] Task todo.deadline_send_mail[27d8a041-3c72-4202-beee-2fe8a33cfa4b] received
+[2022-06-21 07:36:29,416: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 08:36:29.416098) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 07:36:30,557: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[27d8a041-3c72-4202-beee-2fe8a33cfa4b] succeeded in 1.1419593259997782s: None
+[2022-06-21 07:39:44,483: INFO/MainProcess] beat: Shutting down...
+[2022-06-21 08:47:41,411: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-06-21 08:47:41,420: INFO/MainProcess] mingle: searching for neighbors
+[2022-06-21 08:47:42,435: INFO/MainProcess] mingle: all alone
+[2022-06-21 08:47:42,452: INFO/MainProcess] celery@2935631eecc1 ready.
+[2022-06-21 08:47:42,778: INFO/Beat] beat: Starting...
+[2022-06-21 08:47:42,861: INFO/Beat] Scheduler: Sending due task todo_deadline (todo.deadline_send_mail)
+[2022-06-21 08:47:42,870: INFO/MainProcess] Task todo.deadline_send_mail[0b5e9f09-1634-4638-b011-83bdc1d61146] received
+[2022-06-21 08:47:42,891: WARNING/ForkPoolWorker-4] /usr/local/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField Assignment.deadline received a naive datetime (2022-06-21 09:47:42.873064) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+
+[2022-06-21 08:47:44,160: INFO/ForkPoolWorker-4] Task todo.deadline_send_mail[0b5e9f09-1634-4638-b011-83bdc1d61146] succeeded in 1.2881277019987465s: None
+[2022-06-21 08:49:53,676: INFO/MainProcess] beat: Shutting down...

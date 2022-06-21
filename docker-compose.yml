@@ -1,0 +1,51 @@
+version: '3.7'
+services:
+
+  web:
+    container_name: web
+    build: ./
+    command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - db
+    volumes:
+      - .:/usr/src/todo_app
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    environment:
+      makemigrations: "python manage.py makemigrations"
+      migrate: "python manage.py migrate"
+
+  db:
+    image: postgres:12.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=richmond
+      - POSTGRES_PASSWORD=richmond
+      - POSTGRES_DB=db
+    ports:
+      - 5432:5432
+
+  redis:
+    image: redis:6.2.2-alpine
+    container_name: rd01
+    env_file:
+      - ./.env.dev
+    ports:
+      - 6379:6379
+
+  celery:
+    build: .
+    command: celery -A todo_app worker -B -l info -f celery.logs
+    volumes:
+      - ./:/usr/src/todo_app/
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - web
+      - db
+      - redis
+volumes:
+  postgres_data:
