@@ -16,4 +16,4 @@ def deadline_send_mail():
             send_mail("Напоминание о дедлайне", "Дедлайн задачи: " + str(assignment.title) + " закончится через час",
                       "nurzhan.kartaev@mail.ru", [assignment.employee.user.email, ])
     except Exception as exc:
-        return {'error': f" Can't sand a message ({exc})"}
+        return {'error': f" Can't send a message ({exc})"}
